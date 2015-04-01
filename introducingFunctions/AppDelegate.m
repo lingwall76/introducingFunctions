@@ -17,7 +17,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSString *myName = @"Sarah";
+    
+    NSString *introduction = [NSString stringWithFormat:@"My name is %@", myName];
+    NSString *japaneseIntroduction = [myName stringByAppendingString:@" to moushimasu"];
+    
+    NSLog(introduction, japaneseIntroduction);
+    
+    
+    
+
+    
     return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
