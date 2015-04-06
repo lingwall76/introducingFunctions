@@ -9,6 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    NSString *_myName;
+    NSString *_introduction;
+    NSString *_japaneseIntroduction;
+    
+
+    
+}
+
+
 
 @property (strong, nonatomic) UIWindow *window;
 
